@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style:Manrope;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+header{ 
+    height: 135px;
+    /* width: 100%; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    background-color: #FFFFFF;
+}
+
+.logo, ul{
+    margin-top: 54px;
+}
+
+.headerContainer{
+    display: flex;
+    width: 82%;
+    margin: auto;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+
+ul{
+    display: flex;
+    gap: 70px;
+    font-size: 20px;
+}
+
+ul li{
+
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul span{
+    margin-left: 20px;
+}
+
+.headerContainer .btn{
+    height: 75px;
+    width: 278px;
+    border-radius: 16px;
+    background-color: #6FC247;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding-top: 23px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.secondContainer{
+    /* width: 971px; */
+    text-align: center;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+
+}
+
+.secondContainer p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 32px;
+
+}
+
+.h4Container{
+    font-size: 64px;
+    margin-top: 64px;
+}
+
+.twoButtons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 63px;
+}
+
+.requestBtn{
+    height: 75px;
+    width: 278px;
+    border-radius: 16px;
+    background-color: #6FC247;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.signUpBtn{
+    height: 75px;
+    width: 278px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid  #6FC247;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #6FC247;
+    cursor: pointer;
+
+}
+
+
+/* styling the image in the background */
+
+.imageContainer{
+    height: 637px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.thirdContainer{
+    font-size: 20px;
+    margin-top: 117px;
+}
+
+.subContainer{
+     width: 82%;
+     margin: 0 auto;
+     text-align: center;
+
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.thirdContainer p{
+    margin-top: 16px;
+}
+
+.gridimg, .gridimg2{
+    height: 117px;
+    width: 307px;
+    background-color: #F9F9F9;
+}
+
+.gridimg2{
+    padding-top: 25px;
+}
+
+.whyValContainer{
+    background-color:#111111;
+    color: #FFFFFF;
+    padding: 40px 0 40px 0;
+    margin-top: 119px;
+}
+
+.subWhyContainer, .lastContainer{
+    width: 82%;
+    margin: 0 auto;
+   
+
+}
+
+.subContainer2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.lastContainer{
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.flexContainer{   
+    display: flex;
+    font-size: 20px;
+
+}
+
+.leftContainer, .rightContainer{
+    height: 800px;
+    width: 731px;
+   
+    
+}
+
+
+.rightContainer img{
+    height: 800px;
+
+}
+
+.sub2, .sub3, .sub4{
+    padding-left: 32px;
+    margin-top: 70px;
+}
+
+.requestBtn2{
+    height: 75px;
+    width: 278px;
+    border-radius: 16px;
+    background-color: #6FC247;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 64px;
+    
+}
+
+
+
